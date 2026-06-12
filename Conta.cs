@@ -2,9 +2,9 @@ namespace Poo
 {
     public class Conta : Cliente
     {
-        public int NumConta { get; set; }
-        public double Saldo { get; set; }
-        public string Agencia { get; set; }
+        public int NumConta { get; protected set; }
+        public double Saldo { get; protected set; }
+        public string Agencia { get; protected set; }
 
         public Conta(string nome, int idade, bool temFilhos, int numeroConta, double saldo, string agencia) : base(nome, idade, temFilhos)
         {
