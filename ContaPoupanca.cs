@@ -1,6 +1,6 @@
 using System;
 
-namespace Poo
+namespace Main
 {
     public class ContaPoupanca : Conta
     {
@@ -9,7 +9,7 @@ namespace Poo
 
         }
 
-        public void renderConta()
+        public void RenderConta()
         {
             base.Saldo += base.Saldo * 0.1;
         }

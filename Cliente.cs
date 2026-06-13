@@ -1,4 +1,4 @@
-namespace Poo
+namespace Main
 {
     public class Cliente
     {

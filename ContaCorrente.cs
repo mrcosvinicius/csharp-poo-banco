@@ -1,6 +1,6 @@
 using System;
 
-namespace Poo
+namespace Main
 {
     public class ContaCorrente : Conta
     {
@@ -9,7 +9,7 @@ namespace Poo
 
         }
 
-        public void depositar(double valor)
+        public void Depositar(double valor)
         {
             if (valor > 0)
             {
@@ -22,7 +22,7 @@ namespace Poo
             }
         }
 
-        public void sacar(double valor)
+        public void Sacar(double valor)
         {
             if (valor > 0 && valor < base.Saldo)
             {
